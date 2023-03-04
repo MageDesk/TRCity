@@ -1,0 +1,14 @@
+{
+    "magedesk_trcity_city": {
+        "column": {
+            "entity_id": true,
+            "region_id": true,
+            "city": true,
+            "district_id": true,
+            "region_code": true
+        },
+        "constaint": {
+            "PRIMARY": true
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <table name="magedesk_trcity_city" engine="innodb" comment="CITYs">
+    <column name="entity_id" xsi:type="int" comment="entity_id" nullable="true" identity="true" unsigned="true" padding="10"/>
+    <column name="region_id" xsi:type="int" comment="region_id" nullable="true"/>
+    <column name="city" xsi:type="varchar" comment="city" nullable="true"/>
+    <column name="district_id" xsi:type="int" comment="district_id" nullable="true"/>
+    <column name="region_code" xsi:type="varchar" comment="region_code" nullable="true"/>
+    <constraint xsi:type="primary" referenceId="PRIMARY">
+      <column name="entity_id"/>
+    </constraint>
+  </table>
+</schema>
